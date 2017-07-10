@@ -14,6 +14,9 @@
 		69087C371F138A1A00A9D07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69087C351F138A1A00A9D07D /* LaunchScreen.storyboard */; };
 		69087C421F138A1A00A9D07D /* CustomFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69087C411F138A1A00A9D07D /* CustomFlowLayoutTests.swift */; };
 		69087C4D1F138A1A00A9D07D /* CustomFlowLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69087C4C1F138A1A00A9D07D /* CustomFlowLayoutUITests.swift */; };
+		69087C5B1F13903D00A9D07D /* GalleryGridFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69087C5A1F13903D00A9D07D /* GalleryGridFlowLayout.swift */; };
+		69087C5D1F13930E00A9D07D /* GalleryListFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69087C5C1F13930E00A9D07D /* GalleryListFlowLayout.swift */; };
+		69087C5F1F13941F00A9D07D /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69087C5E1F13941F00A9D07D /* GalleryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		69087C481F138A1A00A9D07D /* CustomFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69087C4C1F138A1A00A9D07D /* CustomFlowLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayoutUITests.swift; sourceTree = "<group>"; };
 		69087C4E1F138A1A00A9D07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69087C5A1F13903D00A9D07D /* GalleryGridFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryGridFlowLayout.swift; sourceTree = "<group>"; };
+		69087C5C1F13930E00A9D07D /* GalleryListFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryListFlowLayout.swift; sourceTree = "<group>"; };
+		69087C5E1F13941F00A9D07D /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				69087C331F138A1A00A9D07D /* Assets.xcassets */,
 				69087C351F138A1A00A9D07D /* LaunchScreen.storyboard */,
 				69087C381F138A1A00A9D07D /* Info.plist */,
+				69087C5A1F13903D00A9D07D /* GalleryGridFlowLayout.swift */,
+				69087C5C1F13930E00A9D07D /* GalleryListFlowLayout.swift */,
+				69087C5E1F13941F00A9D07D /* GalleryCell.swift */,
 			);
 			path = CustomFlowLayout;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69087C5D1F13930E00A9D07D /* GalleryListFlowLayout.swift in Sources */,
+				69087C5F1F13941F00A9D07D /* GalleryCell.swift in Sources */,
 				69087C2F1F138A1A00A9D07D /* ViewController.swift in Sources */,
 				69087C2D1F138A1A00A9D07D /* AppDelegate.swift in Sources */,
+				69087C5B1F13903D00A9D07D /* GalleryGridFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

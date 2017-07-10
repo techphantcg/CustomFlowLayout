@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69087C281F138A1A00A9D07D"
+               BuildableName = "CustomFlowLayout.app"
+               BlueprintName = "CustomFlowLayout"
+               ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69087C3C1F138A1A00A9D07D"
+               BuildableName = "CustomFlowLayoutTests.xctest"
+               BlueprintName = "CustomFlowLayoutTests"
+               ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69087C471F138A1A00A9D07D"
+               BuildableName = "CustomFlowLayoutUITests.xctest"
+               BlueprintName = "CustomFlowLayoutUITests"
+               ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "69087C281F138A1A00A9D07D"
+            BuildableName = "CustomFlowLayout.app"
+            BlueprintName = "CustomFlowLayout"
+            ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "69087C281F138A1A00A9D07D"
+            BuildableName = "CustomFlowLayout.app"
+            BlueprintName = "CustomFlowLayout"
+            ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "69087C281F138A1A00A9D07D"
+            BuildableName = "CustomFlowLayout.app"
+            BlueprintName = "CustomFlowLayout"
+            ReferencedContainer = "container:CustomFlowLayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
